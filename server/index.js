@@ -22,6 +22,3 @@ app
   console.error("Error:", err.message);
 });
 
-app.get("/", (req, res) => {
-  res.send("Hello Wilders, welcom to Wilders Series!");
-});
